@@ -27,7 +27,7 @@ h3,
 h4,
 h5,
 h6 {
-	color: #333333;
+	color: #022c61;
 }
 h1 {
 	font-size: 38px;
@@ -57,7 +57,7 @@ h1 span,
 h2 span,
 h3 span,
 h4 span {
-	color: green;
+	color: #022c61;
 }
 .colored {
 	color: green;
@@ -138,8 +138,8 @@ blockquote {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background-color: rgba(0, 0, 0, 0.52);
-	content: "";
+/*	background-color: rgba(0, 0, 0, 0.2);
+*/	content: "";
 }
 .banner-caption {
 	position: absolute;
@@ -251,9 +251,28 @@ border:0px;
 .caption-data h1 span {font-size: inherit; line-height: inherit; font-weight: inherit;}
 .caption-data h3{line-height:34px;}
 button.cta-button.btn-light, button.cta-button.btn-dark, .contact-form button.cta-button, button.cta-button.btn-default {
-background: transparent;
-}
+/*background: transparent;
+*/}
 button.cta-button {
+font-size: 14px;
+line-height: 16px;
+border: none;
+padding: 15px 32px;
+border-radius: 4px;
+font-family: 'Raleway';
+font-weight: 600;
+transition: background 0.3s, border-color 0.3s;
+margin-top:20px;
+background-color: #022c61;
+}
+button.cta-button:hover{
+background: transparent;
+color:#000;
+border: 1px solid #022c61;
+
+}
+
+button.cta-button-2 {
 font-size: 14px;
 line-height: 16px;
 border: 1px solid #fff;
@@ -263,10 +282,12 @@ font-family: 'Raleway';
 font-weight: 600;
 transition: background 0.3s, border-color 0.3s;
 margin-top:20px;
+background: #022c61;
 }
-button.cta-button:hover{
+button.cta-button-2:hover{
 background:#fff;
 color:#000;
+border: 1px solid #022c61;
 }
 /* Misc
 ----------------------------------------------------------------------------- */
@@ -373,8 +394,8 @@ font-size:42px;
 .banner-caption h4,
 .banner-caption h5,
 .banner-caption h6 {
-	color: #ffffff;
-}
+/*	color: #ffffff;
+*/}
 .banner-caption h1 {
 	font-size: 45px;
 }
@@ -590,7 +611,7 @@ padding: 44px 0;
 }
 .main-navigation .navbar-default .navbar-nav > li.active > a {
 	background-color: transparent;
-	color: green;
+	color: #022c61;
 }
 .main-navigation .navbar-default .navbar-nav > li > a:hover,
 .main-navigation .navbar-default .navbar-nav > li.active > a:hover {
