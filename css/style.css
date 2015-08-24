@@ -459,6 +459,8 @@ text-align:center;
 
 /* Collapse
 ---------------------------------- */
+
+
 .panel-group .panel {
 	-webkit-border-radius: 0px;
 	-moz-border-radius: 0px;
@@ -478,7 +480,7 @@ text-align:center;
 .panel-default > .panel-heading + .panel-collapse > .panel-body {
 	border: 1px solid #f0f0f0;
 	border-top: none;
-	background-color: #fafafa
+	background-color: #5FA32F;
 }
 .panel-heading a {
 	font-weight: 400;
@@ -517,6 +519,8 @@ text-align:center;
 .panel-title a i {
 	padding-right: 10px;
 	font-size: 20px;
+}
+.price-table .panel-heading {
 }
 
 /* Pills
@@ -559,7 +563,22 @@ textarea {
 .price-table .panel-heading{
 padding: 44px 0;
 /* font-size: 45px; */
+  
+
 }
+.biz-serv .panel-heading {
+  background: #022c61;
+  
+}
+.biz-serv .panel-heading h4 {
+  color: #5FA32F;
+}
+
+.stu-serv .panel-heading {
+  background: #5FA32F;
+  color: #022c61;
+}
+
 /* Modals
 ---------------------------------- */
 .modal-content {
