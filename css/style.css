@@ -39,7 +39,8 @@ h2 {
 	margin-bottom: 15px;
 }
 h3 {
-	font-size: 3rem;
+	font-size: 3.5rem;
+  font-weight: bold;
 }
 h4 {
 	font-size: 18px;
@@ -148,7 +149,7 @@ blockquote {
 	z-index: 2;
 }
 .subfooter {
-	background-color: #020202;
+	background-color: #333;
 	padding: 40px 0;
 }
 .subfooter a {
@@ -259,7 +260,7 @@ line-height: 16px;
 border: none;
 padding: 15px 32px;
 border-radius: 4px;
-font-family: 'Raleway';
+font-family: 'Raleway', sans-serif;
 font-weight: 600;
 transition: background 0.3s, border-color 0.3s;
 margin-top:20px;
@@ -278,7 +279,7 @@ line-height: 16px;
 border: 1px solid #fff;
 padding: 15px 32px;
 border-radius: 4px;
-font-family: 'Raleway';
+font-family: 'Raleway', sans-serif;
 font-weight: 600;
 transition: background 0.3s, border-color 0.3s;
 margin-top:20px;
@@ -365,6 +366,10 @@ border: 1px solid #022c61;
 		transition: opacity 0.6s ease-in-out;
 	}
 }
+#price {
+  background-color: #E6E6E6;
+}
+
 .space {
 	padding: 20px 0;
 }
@@ -766,8 +771,8 @@ padding: 44px 0;
 }
 @media (min-width:768px) {
 	.fixed-header-on .navbar-default .navbar-nav > li > a {
-		padding-top: 20px;
-		padding-bottom: 20px;
+/*		padding-top: 20px;
+*/		padding-bottom: 20px;
 	}
 }
 @media (max-width:991px) {
