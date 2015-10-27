@@ -173,10 +173,12 @@ color: green;
 color: #fff;
 background-color: #04BD5B;
 border:0px;
+border-radius: 20px;
+padding: 3px;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
-color: #fff;
-background-color: green;
+color: #eee;
+background-color: #062D5F;
 border:0px;
 }
 .transprant-bg {
@@ -431,8 +433,8 @@ text-align:center;
 ---------------------------------- */
 .btn {
   background: transparent;
-    color: #eee;
-    border: 1px solid #eee;
+  color: #5FA32F;
+  border: 1px solid #eee;
 	padding: 8px 15px;
 	font-size: 14px;
 	line-height: 1.42857143;
@@ -629,17 +631,17 @@ padding: 44px 0;
 }
 .main-navigation .navbar-default .navbar-nav > li > a {
 	color: black;
-	padding: 10px 20px;
-	font-size: 18px;
-	font-weight: 500;
+/*	padding: 10px 20px;
+*/	font-size: 1.75rem;
+	font-weight: bold;
 }
 .main-navigation .navbar-default .navbar-nav > li.active > a {
 	background-color: transparent;
-	color: #022c61;
+	color: #5FA32F;
 }
 .main-navigation .navbar-default .navbar-nav > li > a:hover,
 .main-navigation .navbar-default .navbar-nav > li.active > a:hover {
-	color: green;
+	color: #5FA32F;
 }
 
 /* carousel */
@@ -705,7 +707,6 @@ padding: 44px 0;
 .item blockquote p:before {
     content: "\f10d";
     font-family: 'Fontawesome';
-    float: left;
     margin-right: 10px;
 }
 
@@ -791,7 +792,7 @@ padding: 44px 0;
 @media (min-width:768px) {
 	.fixed-header-on .navbar-default .navbar-nav > li > a {
 /*		padding-top: 20px;
-*/		padding-bottom: 20px;
+*/		/*padding-bottom: 20px;*/
 	}
 }
 @media (max-width:991px) {
